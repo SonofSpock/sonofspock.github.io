@@ -121,7 +121,6 @@ code {
     display: block;
     overflow: hidden;
     bottom: 0;
-    position: fixed;
 }
 
 .footer p {
