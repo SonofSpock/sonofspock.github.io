@@ -1,0 +1,58 @@
+Ideas for Posts to the Site & Rationale
+
+* Statistical Posts
+ - Univariate Statistics
+  + Parametric vs. Nonparametric
+   = Measures of Central Tendency
+   = Measures of Spread
+   = Distributions
+   = Inferential Univariate Statistics
+    * Mean/Proportion Estimation
+ - Bivariate Statistics
+  + Correlation & Covariance
+  + Non-Continuous Variables
+  + Inference
+    * Method of Least Squares
+    * Chi-Square Test
+    * Fisher's Exact Test
+  + Regression
+ - Probability
+ - Set Theory
+ - Linear & Relational Algebra
+
+* Computer Science Posts
+ - Implementation of Statistical Algorithms
+ - Algorithms (Basic)
+ - Sorting Algorithms
+
+* Data Science Posts
+ - The Data Visualization Problem
+ - Dataframe Manipulation Language
+ - Solutions for Working with Big Data
+
+* Philosophy Posts
+ - What is Philosophy?
+ - What do philosophers do?
+ - Logic
+  + Sentential
+  + Predicate
+  + Quantifiers
+
+* Educational Research Posts
+ - Key Performance Indicators
+ - Retention Rates
+ - Graduation Rates
+ - Longitudinal Reports
+ - Campus Summary/Report Card
+
+Part of the purpose of the site is to market myself as an Educational
+Researcher. To that end, it is necessary that I demonstrate my technical
+prowess, because I have no technical degree or certifaction that speaks
+to my technical ability. As a result, future employers have no reason
+to believe that I am actually qualified to do the work that I do. As a
+matter of fact, I am currently underqualified to do my current job, but
+we'll overlook that detail for now. So these posts will showcase these
+skills without me needing to go back to earn another degree. It will also
+serve to hold me accountable to my own personal development. It will
+make me happy. It will help preserve me, and enable me to more fully
+understand myself.
