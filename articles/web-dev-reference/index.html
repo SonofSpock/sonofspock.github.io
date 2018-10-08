@@ -2,7 +2,7 @@
 <html lang="en-US">
 
   <head>
-    <meta charset="uft-8">
+    <meta charset="utf-8">
     <meta name="author" content="James Holt">
     <meta name="description" content= "A reference page for HTML and CSS.">
     <title>My Reference Page</title>
@@ -62,6 +62,56 @@
       <li>Add wet ingredients, and mix until all lumps are gone</li>
       <li>Pour evenly into 9 in. baking pan, and bake for 30 mins.</li>
     </ol>
+
+    <h3>Description Lists</h3>
+    <p>
+      This final type of list should be used when each element of the list has
+      its own definition or description. For example, suppose you had a
+      glossary or a list of terms.
+    </p>
+    <dl>
+      <dt>Python</dt>
+      <dd>
+        A dynamically typed, interpreted, scripting language for general
+        purpose computer programming. It has recently become popular for web
+        development and for data science and analytics.
+      </dd>
+      <dt>JavaScript</dt>
+      <dd>
+        Another dynamically typed, interpreted language mostly used for
+        client-side web development. Recently, however, with the development
+        of NodeJS, its popularity as a server-side language has increased.
+      </dd>
+      <dt>R</dt>
+      <dd>
+        This is also a dynamically typed, interpreted language. It is mostly
+        used for data science and analytics. It is very popular among 
+        statisticians.
+      </dd>
+    </dl>
+
+    <h2>Built-in References</h2>
+    <p>
+      HTML offers a great set of tags for marking up blockquotes, inline
+      quotes, abbreviations, and citations. The quote below is taken from
+      Barrack Obama's inaugural address.
+    </p>
+    <blockquote cite="http://obamaspeeches.com/">
+      Our journey has never been one of short-cuts or settling for less. It
+      has not been the path for the faint-hearted - for those who prefer 
+      leisure over work, or seek only the pleasures of riches and fame. 
+      Rather, it has been the risk-takers, the doers, the makers of things 
+      - some celebrated but more often men and women obscure in their labor, 
+      who have carried us up the long, rugged path towards prosperity and 
+      freedom.
+    </blockquote>
+    <p>
+      That text is offset from the rest of the text on the page becaues it
+      is wrapped in <code>&lt;blockquote&gt;</code> tags. But not all quotes
+      are long enough or significant enough to warrant a blockquote. For these
+      inline quotes we use the <code>&lt;q&gt;</code> tag. Both have a
+      <code>cite</code> attribute.
+    </p>
 
     <h2>Forms</h2>
     <form>
