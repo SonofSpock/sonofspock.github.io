@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="James Holt">
-    <meta name="description" content= >
-    <link rel="stylesheet" type="text/css" href= "../css/style.css">
-    <title>James Holt | Resources</title>
+    <meta name="description" content= {{ description }}>
+    <link rel="stylesheet" type="text/css" href= {{ stylesheet }}>
+    <title>{{ title }}</title>
   </head>
   
   <body>
@@ -28,11 +28,13 @@
 
     <main>
       <div class="main_article">
-        
+        {{ content }}
       </div>
     </main>
         
-    <div class="footer">
+    <div 
+      class="footer" 
+      style="position: relative; bottom: 0px;">
       <p>Copyright &copy; 2018 by James Holt</p>
       <p id='disclaimer'>
         Disclaimer: The views, thoughts, and opinions expressed on this site are
