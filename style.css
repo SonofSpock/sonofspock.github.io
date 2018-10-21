@@ -28,6 +28,7 @@ background-image: url(background.jpg);
     flex-wrap: wrap;
     align-items: center;
     min-width: 500px;
+    min-height: 800px;
 }
 
 #portrait_and_links {
