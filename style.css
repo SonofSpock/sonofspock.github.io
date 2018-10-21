@@ -3,92 +3,81 @@ Make the image of the Carina Nebula the background of the whole page
 */
 body {
 background-image: url(background.jpg);
-/*
-    First value of background-size is width and the second is height.
-    vmax and vmin are the maxmimum and minimum values of the width and
-    height of the current viewport. So, by setting both width and height
-    to the maximum, the image will always fill the viewport. If the
-    width is greater than the height, then the bottom of the image will
-    be truncated. If the height is greater than the width, then the side
-    will be truncated.
-*/
-background-size: 100vmax 100vmax;
-background-position: top;
-background-attachment: fixed;
-background-repeat: no-repeat;
-margin: 10%;
-padding: 0px;
-}
-/*
-#master {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
+    /*
+        First value of background-size is width and the second is height.
+        vmax and vmin are the maxmimum and minimum values of the width and
+        height of the current viewport. So, by setting both width and height
+        to the maximum, the image will always fill the viewport. If the
+        width is greater than the height, then the bottom of the image will
+        be truncated. If the height is greater than the width, then the side
+        will be truncated.
+    */
+    background-size: 100vmax 100vmax;
+    background-position: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 10%;
+    padding: 0px;
 }
 
-#main {
-padding: 10%;
-border: 10px solid pink;
-flex: 1;
-}
-*/
 #container {
-background-color: rgba(0, 0, 0, 0.75);
-border-radius: 15px;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    min-width: 500px;
 }
 
 #portrait_and_links {
-flex: 1 70px;
-display: flex;
-flex-direction: column;
-align-items: center;
+    flex: 1 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #portrait {
-/*
-    The height seems to adjust automatically with the width?
-*/
-width: 200px;
-border-radius: 70%;
-margin: 20px 0px 5px 0px;
+    /*
+        The height seems to adjust automatically with the width?
+    */
+    width: 200px;
+    border-radius: 70%;
+    margin: 30px 5px 0px 10px;
 }
 
 #links_table {
-font-family: Helvetica, Arial, sans-serif;
-color: white;
-margin: 5px 0px 20px 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    margin: 0px 10px 0px 5px;
 }
 
 #github_logo {
-height: 32px;
-padding: 2px 6px;
+    height: 32px;
+    padding: 2px 6px;
 }
 
 #twitter_logo {
-height: 32px;
-padding: 2px 6px;
+    height: 32px;
+    padding: 2px 6px;
 }
 
 #linkedin_logo {
-height: 31px;
-padding: 2px 6px;
+    height: 30px;
+    padding: 2px 6px;
 }
 
 #links_table a {
-color: white;
-text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 #main_text {
-flex: 3 320px;
-padding: 20px;
+    flex: 3 320px;
+    padding: 20px;
 }
 
 #main_text p {
-color: white;
-font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
 }
