@@ -28,11 +28,10 @@ background-image: url(background.jpg);
     flex-wrap: wrap;
     align-items: center;
     min-width: 500px;
-    min-height: 800px;
 }
 
 #portrait_and_links {
-    flex: 1 10px;
+    flex: 1 340px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -44,7 +43,7 @@ background-image: url(background.jpg);
     */
     width: 200px;
     border-radius: 70%;
-    margin: 30px 5px 0px 10px;
+    margin: 0px 5px 0px 10px;
 }
 
 #links_table {
@@ -74,8 +73,8 @@ background-image: url(background.jpg);
 }
 
 #main_text {
-    flex: 3 320px;
-    padding: 20px;
+    flex: 3;
+    padding: 0px 30px;
 }
 
 #main_text p {
