@@ -41,7 +41,7 @@ background-image: url(background.jpg);
     /*
         The height seems to adjust automatically with the width?
     */
-    width: 200px;
+    width: 190px;
     border-radius: 70%;
     margin: 0px 5px 0px 10px;
 }
