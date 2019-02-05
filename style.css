@@ -77,6 +77,10 @@ background-image: url(background.jpg);
     padding: 0px 30px;
 }
 
+#main_text a {
+    color: white;
+}
+
 #main_text p {
     color: white;
     font-family: Helvetica, Arial, sans-serif;
