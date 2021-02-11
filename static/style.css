@@ -2,7 +2,7 @@
 Make the image of the Carina Nebula the background of the whole page
 */
 body {
-background-image: url(background.jpg);
+background-image: url(static/images/background.jpg);
     /*
         First value of background-size is width and the second is height.
         vmax and vmin are the maxmimum and minimum values of the width and
