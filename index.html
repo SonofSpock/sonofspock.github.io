@@ -1,87 +1,116 @@
 <!DOCTYPE HTML>
-<html lang="en-US">
+<html lang="en-US" style="height: 100%; background-image: url(static/images/milky-way-74005.jpg);">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="James Holt">
+
     <title>James Holt</title>
+
     <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/css/uikit.min.css" />
   </head>
   <body>
-      <div id="container">
+    <main class="uk-padding">
+      <div class="uk-container uk-container-small jh-background-transparent jh-rounded-corners jh-font-white">
 
-        <div id="portrait_and_links">
-          <img id="portrait" src="static/images/profile_pic_cropped.jpg">
-
-          <table id="links_table">
-            <tr>
-              <td>
-                <img id="github_logo" src="static/images/github_logo_32px.png">
-              </td>
-              <td>
-                <a href="https://github.com/holtjp">holtjp</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img id="twitter_logo" src="static/images/twitter_logo_400px.png">
-              </td>
-              <td>
-                <a href="https://twitter.com/james_of_earth">@james_of_earth</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <img id="linkedin_logo" src="static/images/linkedin_logo_34px_cropped.png">
-              </td>
-              <td>
-                  <a href="https://www.linkedin.com/in/james-holt-7a855b138/">james-holt</a>
-              </td>
-            </tr>
-          </table>
-        </div>
-
-        <div id="main_text">
-          <p style="text-indent:24px; line-height:1.4em;">
-            I'm currently working as a software developer at <a href="https://dealcloud.com/">DealCloud</a>
-            on the Technical Services team. My work primarily deals with the data migration process for our
-            clients as they transition from their current data solution to the DealCloud CRM. Each migration
-            is unique, and so each solution has its own implementation. But to help with some mundane data
-            processing tasks, we have an internal web application known as the Data Tools for which I am
-            primarily responsible. It is a full-stack solution built with Flask and ReactJS. Data processes
-            are managed by an asynchronous task queue with Celery and Redis.
-          </p>
-          <p style="text-indent:24px; line-height:1.4em;">
-            Prior to DealCloud, I worked for <a href="https://skyfactor.com/">Skyfactor</a> from 2017 to 2019
-            as a data analyst. In that role I was primarily responsible for developing statistical models of student
-            retention. I also developed some internal applications to automate aspects of our production
-            process, and provided insights to our operations team with Tableau.
-          </p>
-          <p style="text-indent:24px; line-height:1.4em;">
-            I did my undergraduate and graduate studies at the University of South Carolina. In 2015, I
-            completed my bachelor's degree with a double major in Philosophy and Classics. At that time I was
-            mainly interested in symbolic logic and mathematics in Ancient Greece and Classical Rome. In
-            2017, I completed my master's degree in Higher Education. As a graduate student I was very
-            interested in the social sciences--psychology, sociology, economics, and the law. I held an
-            assistantship with the university for the duration of the degree and a research position for
-            part of the time as well.
-          </p>
-          <p style="text-indent:24px; line-height:1.4em;">
-            I'm always looking for ways to improve workflows and documentation. Python is my preferred
-            language. The overwhelming majority of datasets that I work with now come from relational
-            systems, specifically Microsoft SQL Server. I'm slowly adding JavaScript to my toolbox as well.
-            I'm obsessed with logic, mathematics, philosophy, language, and computers (especially Linux). Here are some of my
-            favorite quotes:
-          </p>
-          <div style="text-align: center;">
-            <p><em>"Be excellent to each other."</em> -Bill & Ted</p>
-            <p><em>"The unexamined life is not worth living."</em> -Socrates</p>
-            <p><em>"If I have seen further than others, it is because I have stood on the shoulders of giants."</em> -Sir Issac Newton</p>
-            <p><em>"Sticking feathers up your butt does not make you a chicken."</em> -Tyler Durden</p>
-            <p><em>"I'm not superstitious, but I am a little stitious."</em> -Michael Scott</p>
-            <p><em>"All you need is love."</em> -The Beatles</p>
-            <p><em>"Be smart."</em> -My grandmother</p>
+        <div class="uk-padding uk-flex uk-flex-column uk-flex-middle">
+          <div class="uk-padding-small">
+            <img id="portrait" src="static/images/profile_pic_cropped.jpg">
+          </div>
+          <div>
+            <a href="https://github.com/holtjp"><img class="jh-logo" src="static/images/github_logo_32px.png"></a>
+            <a href="https://www.linkedin.com/in/james-holt-7a855b138/"><img class="jh-logo" src="static/images/linkedin_logo_34px_cropped.png"></a>
+            <a href="https://twitter.com/james_of_earth"><img class="jh-logo" src="static/images/twitter_logo_400px.png"></a>
           </div>
         </div>
 
+        <article class="uk-article">
+          <p class="jh-article-paragraph">
+            I currently live and work in Charlotte, North Carolina as a software developer for
+            <a href="https://www.linkedin.com/company/signature-consultants/">Signature
+            Consultants</a>, a recruiting and staffing firm in the IT sector. Since August 2020, I've
+            been on assignment with one of their clients in the banking industry. I design, code,
+            test, and debug server-side applications for Linux environments. Unlike many other
+            developers, I have had no formal education in computer science or software
+            engineering. I'm an autodidact.
+          </p>
+          <p class="jh-article-paragraph">
+            I did my undergraduate and graduate studies at the University of South Carolina. In 2015,
+            I completed my bachelor's degree with a double major in Philosophy and Classics. At that
+            time, I was obsessed with logic, ancient physics, and philology. In 2017, I
+            completed my master's degree in Higher Education. As a graduate student, I was very
+            interested in the social sciences&mdash;psychology, sociology, economics, and the law&mdash;and
+            I used my electives to take courses in statistics. I also held an assistantship with the
+            university's housing department for the duration of the degree which introduced me to
+            data management and relational databases.
+          </p>
+          <p class="jh-article-paragraph">
+            Instead of entering higher education administration after graduate school like most of my
+            cohort, I leveraged the skills I had gained in data analytics and accepted a position at
+            <a href="https://www.linkedin.com/company/ebi-map-works/">Skyfactor</a> in Springfield,
+            Missouri. By the time I started in June 2017 with the Analytics and Research Team (ART),
+            I had already taught myself enough to be fairly compentent in R and SQL, and my director
+            was keen to see me develop those skills further by adding Python to my repertoire. I held
+            that position for two years.  During that time I rewrote the desktop application used by
+            ART to run Monte Carlo simulations and build predictive models for student success. I
+            also built a couple of console applications to automate some annoyingly tedious aspects
+            of our production process and wrangle data for our operations and finance team.
+          </p>
+          <p class="jh-article-paragraph">
+            In June 2019, I accepted a position at
+            <a href="https://www.linkedin.com/company/dealcloud-inc-/">DealCloud</a> in Charlotte,
+            North Carolina, again as a data analyst. I hated the winters in the midwest, and having
+            been raised in the Carolinas I was happy to move back home. I was also excited about the
+            opportunity because, unlike my first job which had at least something to do with my
+            graduate degree in terms of the industry and the subject matter, DealCloud served the
+            financial services industry exclusively. I was hired specifically because of the
+            technical skills I had managed to teach myself up to that point, and I was proud of that.
+            I had two full years of experience with Python under my belt, and even though I preferred
+            R for a long time, that had certainly changed by then.
+          </p>
+          <p class="jh-article-paragraph">
+            At DealCloud, my work dealt with migrating new clients' data from their old solution
+            into their instance of our app. After 6 months of working on data migrations, I
+            transitioned into my first official software developer role on the Technical Services
+            team where my focus shifted away from any one specific client's migration to developing
+            solutions that could help with all migrations. I worked on my first full stack
+            application there: a Flask app with a SQLite database and a React frontend. It had been
+            designed and built by another developer who had left the company a few months before I
+            arrived. It used a Celery task queue to process data asynchronously and ran on Ubuntu. I
+            was responsible for designing and developing fixes and enhancements, and because it was a
+            small project I also managed the environments on the server, built it, and deployed it.
+            So in addition to SQL, R, and Python, I added Bash and the frontend dev stack&mdash;HTML, CSS,
+            and JavaScript&mdash;to my skillset.
+          </p>
+          <p class="jh-article-paragraph">
+            In August 2020, I moved into my current role with Signature. Python is still my preferred
+            language, and although I can do both, I enjoy server-side work much more than
+            client-side. I'm love logic, mathematics, philosophy, philology, physics, and computers.
+            I also still have a heart for education, and I hope that one day my career will lead
+            back to that field. During the COVID-19 pandemic, I started playing and and studying
+            chess, which has been strangely therapeutic. I enjoy road cycling, hiking, and
+            backpacking in the Great Smoky Mountains. I also love music; I have been known to strum
+            the guitar and sing from time to time. Here are some of my favorite quotes:
+          </p>
+        </article>
+
+        <div class="uk-padding uk-text-center">
+          <p><span class="uk-text-italic">"Sticking feathers up your butt does not make you a chicken."</span><br>-Tyler Durden</p>
+          <p><span class="uk-text-italic">"Be excellent to each other."</span><br>-Bill &amp; Ted</p>
+          <p><span class="uk-text-italic">"The unexamined life is not worth living."</span><br>-Socrates</p>
+          <p><span class="uk-text-italic">"If I have seen further than others, it is because I have stood on the shoulders of giants."</span><br>-Sir Issac Newton</p>
+          <p><span class="uk-text-italic">"I'm not superstitious, but I am a little stitious."</span><br>-Michael Scott</p>
+          <p><span class="uk-text-italic">"All you need is love."</span><br>-The Beatles</p>
+          <p><span class="uk-text-italic">"Be smart."</span><br>-My grandmother</p>
+        </div>
+
       </div>
+    </main>
+    <footer style="overflow: hidden;">
+      <!-- UIkit JS -->
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.16/dist/js/uikit-icons.min.js"></script>
+    </footer>
   </body>
 </html>
